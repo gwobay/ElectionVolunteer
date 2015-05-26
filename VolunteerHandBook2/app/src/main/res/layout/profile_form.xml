@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" 
+    android:id="@+id/freshman_personal_page"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical">
+    
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal">
+    	<TextView android:id="@+id/welcome"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#700"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:text="@string/welcome_to_join" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+			<EditText android:id="@+id/last_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/last_name" />
+			<EditText android:id="@+id/first_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:hint="@string/first_name" />
+			<EditText android:id="@+id/nick_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:hint="@string/nick_name" />
+	</LinearLayout>			
+		<EditText android:id="@+id/street_and_number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/street_and_number" />
+
+		<EditText android:id="@+id/address_city"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/address_city" />
+		
+		<EditText android:id="@+id/mobile_number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/mobile_number" />
+		
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+		
+		<Button android:id="@+id/birthday"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="50dp"
+			android:textColor="#700"
+			android:hint="@string/pick_birthday" 
+			android:onClick="pickDate" />
+		<EditText android:id="@+id/birth_date"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="30sp"
+			android:hint="@string/birth_date" />
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:text="@string/sex" />
+		<EditText android:id="@+id/sex"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="30sp"
+			android:hint="@string/sex" />
+	</LinearLayout>		
+	
+	<LinearLayout 
+	    android:id="@+id/profile_photo_container"
+	    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+
+		<Button android:id="@+id/get_profile_photo"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:background="#ffcc99"
+			android:textSize="30sp"
+			android:textColor="#0066ff"
+			android:hint="@string/get_picture" 
+			android:onClick="getPicture" />
+		
+		<ImageView android:id="@+id/profile_photo"
+			    android:contentDescription="@string/profile_photo"
+				android:layout_width="80dp"
+				android:layout_height="60dp"
+		    	android:layout_gravity="left"
+				android:background="#000000"
+				android:clickable="true"
+				android:onClick="refreshPhoto" 
+				android:gravity="center" 
+				android:padding="0dp" />
+		<TextView android:id="@+id/wait_4_photo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textColor="#700"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:text="@string/wait_4_photo" />
+	</LinearLayout>		
+
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+		<Button android:id="@+id/get_notfy_rington"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:background="#66CCFF"
+			android:textSize="30sp"
+			android:textColor="#FF2200"
+			android:hint="@string/get_notfy_rington" 
+			android:onClick="getRingTone" />
+		
+		<TextView android:id="@+id/no_noise_period_begin"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textColor="#700"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:text="@string/no_noise_period" />
+		
+		<TextView android:id="@+id/no_noise_period_end"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textColor="#700"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:text="@string/no_noise_period" />		
+		</LinearLayout>		
+		
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >	
+		
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/managing_experience" />
+		<EditText android:id="@+id/managed_head_count"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/managed_head_count" />
+		</LinearLayout>			
+	
+			
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >			
+		<TextView android:id="@+id/badge_id"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/badge_id" />
+		<TextView android:id="@+id/team_id"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/team_id" />
+		<TextView android:id="@+id/rank"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/rank" />
+		</LinearLayout>			
+	
+
+		<ImageView android:id="@+id/image_candidate"
+			    android:contentDescription="@string/candidate_photo"
+				android:layout_width="match_parent"
+				
+				android:layout_height="fill_parent"
+		    	android:layout_gravity="center_horizontal"
+				android:background="#000000"
+				android:gravity="center" 
+				android:padding="0dp" />
+
+</LinearLayout>
+</ScrollView>

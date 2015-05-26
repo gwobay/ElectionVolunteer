@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Volunteer Handbook</string>
+    <string name="db_name">kp_volunteer_db</string>
+    <string name="host_name">220.134.85.189</string>
+    <string name="host_port">9779</string>
+    <string name="password">PASSWORD</string>
+   <string name="enter_password">Enter PASSWORD</string>
+    <string name="setup_new_account">Setup New Account</string>
+    <string name="pass_word_key">992881316154</string>
+   <string name="wrong_password">Wrong password, try again</string>
+    
+   <string name="create_profile">Create Profile</string>
+    
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="nick_name">Nick Name</string>
+    <string name="citizen_id">citizen ID</string>
+    <string name="street_and_number">Street and Number</string>
+    <string name="address_city">City</string>
+    <string name="address_zipcode">Zip Code</string>
+    <string name="address_state">State</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="sex">Sex</string>
+    <string name="birthday">Birthday</string>
+    <string name="birth_date">1996/02/02</string>
+    <string name="pick_birthday">pick_birthday</string>
+	<string name="team_id">team_id</string>
+    <string name="badge_id">badge_id</string>
+    <string name="rank">Years of experience</string>
+    <string name="managing_experience">managing_experience</string> 		
+	<string name="managed_head_count">managed_head_count</string>
+    <string name="button_send">Send</string>
+   <string name="send">Send</string>
+    <string name="dialog_passby">Supporter</string>
+    <string name="dialog_volunteer">Volunteer</string>
+    <string name="get_picture">get_profile photo</string>
+    <string name="profile_photo">profile_photo</string>
+    <string name="wait_4_photo">Touch Photo to Refresh</string>
+    <string name="get_notfy_rington">Get_notfy_rington</string>
+    <string name="no_noise_period">no_noise_period</string>
+    <string name="no_noise_period_begin">no_noise_period_begin</string>
+   <string name="no_noise_period_end">no_noise_period_end</string>
+   
+    <string name="candidate_logo">kp.gif</string>
+<string name="welcome_to_join">Wellcome To Join Us</string>
+<string name="wait_for_server_response">Waiting For Server Response</string>
+
+<!--  "Candidate Blue-Print",  "New Agenda", "Candidate Photos", "Candidate Broadcasting",
+				"Candidate Current Position", "Messaging Team-mates", "Visited History",
+				"Fund Raise History", "My Calendar Reminder", "My Commitment",  
+		    "Personal Information"  -->
+		    
+    <string-array name="page_array">
+        <item>Candidate Blue-Print</item>
+        <item>New Agenda</item>
+        <item>Candidate Photos</item>
+        <item>Candidate Broadcasting</item>
+        <item>Candidate Current Position</item>
+        <item>Get Permission to Held an Event</item>
+        <item>Forum and Chat Room</item>
+        <item>Visiting History</item>
+        <item>Fund Raise History</item>
+        <item>My Calendar Reminder</item>
+        <item>My Commitment</item>
+        <item>Personal Information</item>
+        <item>Exit</item>
+        
+    </string-array>
+    <string-array name="page_array_EN">
+        <item>Candidate Blue-Print</item>
+        <item>New Agenda</item>
+        <item>Candidate Photos</item>
+        <item>Candidate Broadcasting</item>
+        <item>Candidate Current Position</item>
+        <item>Get Permission to Held an Event</item>
+        <item>Forum and Chat</item>
+        <item>Job Memo</item>
+        <item>Visiting History</item>
+        <item>Fund Raise History</item>
+        <item>My Calendar Reminder</item>
+        <item>My Commitment</item>
+        <item>Personal Information</item>
+    </string-array>
+    
+    <string-array name="what_I_thought">
+        <item>abc</item>
+        </string-array>
+    <!-- 		sql += "( category CHAR(60) CHARACTER SET utf8 unique not null ,";
+				sql += " chapter char(10) not null,";
+				sql += " title CHAR(60)  CHARACTER SET utf8 unique not null,"; 
+				sql += " section CHAR(10) CHARACTER SET utf8 not null,"; 
+				sql += " sub_title CHAR(60)  CHARACTER SET utf8 unique not null,"; 
+				sql += " content text CHARACTER SET utf8 not null,"; 
+				sql += " url CHAR(100) CHARACTER SET utf8 not null);";  -->
+	<string name="blue_print">Candidate Blue-Print</string>
+    <string name="category">Category</string>
+    <string name="chapter">Chapter</string>
+    <string name="title">Title</string>
+    <string name="section">Section</string>
+    <string name="sub_title">Sub Title</string>
+    <string name="content">Content</string>				
+    <string name="url">url</string>				
+    <string name="comment">comment</string>
+ 	<string name="memo_author">memo_author</string>
+ 	
+<!-- 			String sql="create table if not exists agenda";
+				sql += " event_date date  not null default '2014-05-01',";
+				sql += " title CHAR(60) CHARACTER SET utf8 not null,"; 
+				sql += " description text CHARACTER SET utf8 not null,"; 
+				sql += " url CHAR(100) CHARACTER SET utf8 not null,"; 
+				sql += " location_street char(100) not null,";			
+				sql += " location_city char(20) not null,";			
+				sql += " event_host CHAR(200) CHARACTER SET utf8,";				
+				sql += " contact_number char(12),
+				sql += " i_join char(1) );";        -->
+	<string name="new_agenda">new_agenda</string>			
+  	<string name="agenda">agenda</string>			
+  	<string name="event_title">Agenda</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_time">Event Time</string>
+    <string name="set_date_time">set_date_time</string>
+    <string name="description">description</string>
+    <string name="event_host">event_host</string>
+    <string name="event_location">Location</string>
+    <string name="event_city">City</string>
+    <string name="contact_number">contact_number</string>
+	<string name="need_your_participate">Need Your Participate[click I-join icon to join]</string>
+	<string name="number_of_participant">number_of_participant</string>
+	
+	<string name="work_memo">Work Memo</string>
+    <string name="memo_date">date</string>
+    <string name="memo_subject">subject</string>
+    <string name="memo_description">description</string>
+     
+	<!-- 			String sql="create table if not exists candidate_photo";
+				sql += " taken_date date not null default '2014-05-01',";
+				sql += " title CHAR(60) CHARACTER SET utf8  unique not null,"; 
+				sql += " description CHAR(200) CHARACTER SET utf8 not null,"; 
+				sql += " url CHAR(100) CHARACTER SET utf8 not null);"; 
+	 -->
+   	<string name="candidate_photo">Candidate Photo</string>
+    <string name="taken_date">Taken Date</string>
+	
+	 <string name="candidate_vocal">candidate_vocal</string>
+    <string name="record_date">record_date</string>	
+    
+    			
+<!--   personal_infomation	-->			
+	<string name="personal_infomation">Personal Information</string>
+    <string name="to_modify">Start to Modify</string>
+    <string name="kp_grateful">kp_grateful.mp3</string>
+    <string name="progress_circle">Please wait....</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="_sdcard_koo_mp3">/storage/sdcard/KOPP.mp3</string>
+	<string name="welcome_to_participate1">Your Participate Can Make A Big Difference</string>
+    <string name="welcome_to_participate2">(Please tell us what you can contribute)</string>
+    <string name="commit_visit">house call</string>
+    <!--  commit page -->
+    <string name="set_commitment">Set Commitment</string>
+<string name="visits_per_week">times/week</string>		
+<string name="once">0</string>
+<string name="hours_per_visit">hours/time</string>
+<string name="commit_fund_raise">help to raise fund</string>
+<string name="commit_event">participate candidate event</string>
+<string name="office_support">office support</string>
+<string name="specialty_list">list your specialty; e.g. painting</string>
+<string name="expertee">specialty:</string>
+<string name="set_goal">click to set the goal</string>
+<!--  commit end -->
+<!-- visiting page  -->
+<string name="visiting_form">visiting record form</string>
+<string name="visiting_date">visiting date</string>
+<string name="full_name">full name</string>
+<string name="address_street">address street</string>
+<string name="street_address">address street</string>
+<string name="rating">rating</string>
+    <string-array name="voter_rating">
+        <item>Join As Volunteer</item>
+        <item>Will Contribute Effort</item>
+        <item>Will Participate</item>
+        <item>Fans</item>
+        <item>Will Recommand</item>
+        <item>Shall Vote For</item>
+        <item>propabaly</item>
+        <item>will look into</item>
+        <item>Not Decided Yet</item>
+        <item>Not Interested</item>
+        <item>Refused</item>
+    </string-array>
+<string name="next_visiting_date">when to visit again</string>
+<string name="confirm_to_send">Confirm and Send</string>
+<!-- visiting page end -->
+
+<!-- fund_raised page  -->
+<string name="fund_raise_form">fund_raise_form</string>
+<string name="fund_raised_date">fund_raised_date</string>
+<string name="amount">amount</string>
+<string name="receipt_number">receipt_number</string>
+<!-- fund_raised page end -->
+
+<!-- chat room page  -->
+    <string-array name="chat_room_array">
+        <item>Check Open Forum List</item>
+        <item>Open New Forum</item>
+        <item>Check Team Chat Rooms</item>
+        <item>Open Team Chat Room</item>
+        <item>Chat with A Member</item>
+        <item>Report Abuse</item>
+        <item>Select Chat Room Background Picture</item>
+        <item>Exit</item>
+    </string-array>
+<string name="chat_room">chat_room</string>
+<string name="anchor">anchor</string>
+<string name="body_list">body_list</string>
+<string name="invite">invite</string>
+<string name="check_room_list">check_room_list</string>
+<string name="join_room">join_room</string>
+<string name="speaker_photo">speaker_photo</string>
+<string name="my_photo">my_photo</string>
+<string name="write_message">write_message</string>
+<string name="send_message">send_message</string>
+
+<!-- fund_raised page end -->
+
+    <string-array name="url_list">
+        <item>/guide/topics/manifest/action-element.htmlzAz&lt;action&gt;</item>
+        <item>/guide/topics/manifest/activity-element.htmlzAz&lt;activity&gt;</item>
+        <item>/guide/topics/manifest/uses-permission-element.htmlzAz&lt;uses-permission&gt;</item>
+        <item>/guide/topics/manifest/uses-sdk-element.htmlzAz&lt;uses-sdk&gt;</item>
+    </string-array>
+	<string name="reply_hint">put your reply here and click the send button on the top</string>
+    
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="google_map">GOOGLE MAP</string>
+    
+    <string name="title_activity_open_url">Open Activity Page</string>
+    <!-- menu items -->
+    <string name="action_settings">Settings</string>
+    <string name="add_new">Add New</string>
+    <string name="action_modify">Modify</string>
+        <string name="action_delete">Delete</string>
+        <string name="action_cancel">Cancel</string>
+        <string name="confirm_cancel">YES</string>
+        <string name="forget">forget</string>
+        <string name="action_home">Back Home Page</string>
+        <string name="delete">Delete</string>
+        <string name="save">Save</string>
+         <string name="check">Check Content</string>
+       <string name="click_record_to_open">click_record_to_open</string>
+        <string name="revise">Modify</string>
+        <string name="i_join">Click to Join</string>
+        <string name="i_reply">Reply</string>
+        <string name="i_retry">Back</string>
+        <string name="record_status">Your Status</string>    
+        <string name="friends_are_welcome">Welcome Friends</string>
+       <string name="number_participants">Number of Participants</string>
+        	<string name="need_man">need_man</string>
+    <string name="need_equipment">need_equipment</string>
+    <string name="need_money">need_money</string>
+       
+         <string name="candidate_name">candidate_name</string>
+         <string name="msg_for_you">msg_for_you</string>    
+         <string name="usr_type">user</string>    
+         <!-- string name="usr_type">boss</string>     -->
+         
+    
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/progress_circle" android:oneshot="false" >
+<item android:drawable="@drawable/progress_circle3" android:duration="50" />
+<item android:drawable="@drawable/progress_circle6" android:duration="50" />
+<item android:drawable="@drawable/progress_circle8" android:duration="50" />
+<item android:drawable="@drawable/progress_circle11" android:duration="50" />
+<item android:drawable="@drawable/progress_circle13" android:duration="50" />
+<item android:drawable="@drawable/progress_circle16" android:duration="50" />
+<item android:drawable="@drawable/progress_circle18" android:duration="50" />
+<item android:drawable="@drawable/progress_circle21" android:duration="50" />
+<item android:drawable="@drawable/progress_circle23" android:duration="50" />
+<item android:drawable="@drawable/progress_circle26" android:duration="50" />
+<item android:drawable="@drawable/progress_circle28" android:duration="50" />
+<item android:drawable="@drawable/progress_circle31" android:duration="50" />
+<item android:drawable="@drawable/progress_circle36" android:duration="50" />
+<item android:drawable="@drawable/progress_circle38" android:duration="50" />
+
+</animation-list>

@@ -1,0 +1,96 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/action_websearch"
+          android:icon="@drawable/action_search"
+          android:title="@string/action_websearch"
+          android:visibility="invisible"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/action_check"
+          android:icon="@drawable/ic_action_check"
+          android:title="@string/check"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_new"
+          android:icon="@drawable/add_new"
+          android:title="@string/add_new"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+    
+	<item android:id="@+id/action_modify"
+          android:icon="@drawable/ic_action_modify"
+          android:title="@string/revise"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_delete"
+          android:icon="@drawable/ic_action_delete"
+          android:title="@string/delete"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_save"
+          android:icon="@drawable/ic_action_save"
+          android:title="@string/save"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_join"
+          android:icon="@drawable/ic_action_join1"
+          android:title="@string/i_join"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_reply"
+          android:icon="@drawable/i_reply"
+          android:title="@string/i_reply"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_retry"
+          android:icon="@drawable/i_reply"
+          android:title="@string/i_retry"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_cancel"
+          android:icon="@drawable/ic_action_cancel"
+          android:title="@string/action_cancel"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_home"
+          android:icon="@drawable/ic_back_home"
+          android:title="@string/back_home"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_close"
+          android:icon="@drawable/ic_action_close"
+          android:title="@string/i_join"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+	
+	<item android:id="@+id/action_send"
+          android:icon="@drawable/ic_action_submit"
+          android:title="@string/send"
+           android:visibility="invisible"
+          android:showAsAction="ifRoom" />
+
+</menu>

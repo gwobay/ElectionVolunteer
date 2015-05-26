@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" 
+    android:id="@+id/visiting_page"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical">
+    
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal">
+    	<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#700"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:text="@string/visiting_form" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/visiting_date" />
+		<EditText android:id="@+id/visit_date"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:hint="@string/visiting_date" />
+			
+	</LinearLayout>			
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/full_name" />
+		<EditText android:id="@+id/full_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:hint="@string/full_name" />
+			
+	</LinearLayout>	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/address_street" />
+		<EditText android:id="@+id/street_address"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:hint="@string/street_address" />
+	</LinearLayout>	
+			
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/address_city" />
+		<EditText android:id="@+id/address_city"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:hint="@string/address_city" />
+			
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/mobile_number" />
+		
+		<EditText android:id="@+id/mobile_number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textSize="30sp"
+			android:hint="@string/mobile_number" />
+	</LinearLayout>	
+		
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/rating" />
+		
+		<Spinner android:id="@+id/rating_spinnner"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+		</Spinner>
+	
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="30sp"
+				android:hint="@string/next_visiting_date" />
+		<EditText android:id="@+id/next_visiting_date"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:hint="@string/next_visiting_date" />
+	</LinearLayout>		
+	
+
+</LinearLayout>
+</ScrollView>

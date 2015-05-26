@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+<LinearLayout  android:id="@+id/memo_form"
+    android:layout_width="320dp"
+    android:layout_height="fill_parent" 
+    android:background="#CCFFFF" 
+    android:orientation="vertical">
+    
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:orientation="horizontal" >
+			
+	   <TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textColor="#700"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:text="@string/memo_subject" />
+    	<EditText 
+				android:id="@+id/memo_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="30dp"
+				android:layout_gravity="left"
+				android:textSize="16sp"
+				android:textStyle="italic"  
+				android:hint="@string/memo_subject" />
+    	<TextView  android:id="@+id/memo_author"				
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#700"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:text="@string/memo_author" />
+    </LinearLayout>	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:orientation="horizontal" >
+    		 	
+    	<Button  			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:paddingRight="4sp"
+			android:textColor="#700"
+			android:onClick="getDate"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:text="@string/memo_date" />
+    	<EditText  android:id="@+id/memo_date"				
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:textColor="#CC3300"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:text="@string/memo_date" />
+    	<TextView  android:id="@+id/recv_time"				
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:paddingLeft="32sp"
+			android:textColor="#CC3300"
+			android:textSize="16sp"
+			android:textStyle="bold" />
+    	
+
+	</LinearLayout>	
+
+
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:orientation="horizontal" >
+    	<EditText  android:id="@+id/memo_description"				
+			android:layout_width="wrap_content"
+			android:layout_height="100sp"
+			android:layout_gravity="left"
+			android:textColor="#700"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:hint="@string/description" />
+	</LinearLayout>	
+</LinearLayout>
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:divider="#00000000"
+        android:listSelector="#00000000" >
+    </ListView>
+    
+</LinearLayout>

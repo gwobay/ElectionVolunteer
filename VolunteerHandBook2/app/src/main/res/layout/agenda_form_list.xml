@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/agenda_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout android:id="@+id/agenda_form"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center_horizontal"
+		android:background="#CCFFFF" 
+	    android:orientation="vertical">
+    
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+    	<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#700"
+			android:textSize="30sp"
+			android:textStyle="bold"
+			android:text="@string/event_title" />
+    	<TextView 
+				android:id="@+id/event_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="30dp"
+				android:layout_gravity="left"
+				android:textSize="30sp"
+				android:textStyle="italic"  
+				android:text="@string/title" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+    	<TextView  			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:paddingRight="4sp"
+			android:textColor="#700"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:text="@string/event_date" />
+    	<TextView  android:id="@+id/event_date"				
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#CC3300"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:text="@string/event_date" />
+    	<TextView  			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:paddingLeft="10dp"
+				android:textColor="#700"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:text="@string/event_time" />
+    	<TextView  android:id="@+id/event_time"				
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:paddingLeft="10dp"
+			android:textColor="#CC3300"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:text="@string/event_time" /> 
+	</LinearLayout>	
+	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+    	<TextView  android:id="@+id/event_location"	
+    	    android:clickable="true"
+    	    android:onClick="showMap"			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#700"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:text="@string/event_location" />
+    	<TextView 
+				android:id="@+id/event_city"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="30dp"
+				android:layout_gravity="left"
+				android:textSize="25sp"
+				android:textStyle="italic" 
+				android:text="@string/address_city" /> 
+		<Button 
+				android:id="@+id/tiny_map"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:background="@drawable/map_tiny"
+				android:onClick="showMap"	 />
+	</LinearLayout>	
+	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+    	<TextView  android:id="@+id/event_host"				
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#CC3300"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:text="@string/event_host" />
+    	<TextView 
+				android:id="@+id/contact_number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="30dp"
+				android:layout_gravity="left"
+				android:textSize="25sp"
+				android:textStyle="italic" 
+				android:text="@string/contact_number" /> 
+	</LinearLayout>	
+	
+	<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal" >
+    	<TextView  android:id="@+id/event_description"				
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#700"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:text="@string/description" />
+	</LinearLayout>	
+	
+</LinearLayout>	    
+
+<LinearLayout android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:layout_gravity="left"
+			android:orientation="vertical" >
+	<ListView 
+	    android:id="@android:id/list"
+	        android:layout_width="match_parent"
+	    	android:layout_height="fill_parent" 
+	        android:choiceMode="singleChoice"
+	        android:divider="@android:color/holo_blue_light"
+	        android:dividerHeight="1dp"
+	        android:background="@drawable/list_background" >	
+	</ListView>
+</LinearLayout>	
+    	
+</LinearLayout>

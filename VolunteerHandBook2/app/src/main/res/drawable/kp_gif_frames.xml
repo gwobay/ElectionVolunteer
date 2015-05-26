@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kop_gif" android:oneshot="false" >
+    <item android:drawable="@drawable/kp1" android:duration="150" />
+	<item android:drawable="@drawable/kp4" android:duration="150" />
+	<item android:drawable="@drawable/kp7" android:duration="150" />
+	<item android:drawable="@drawable/kp11" android:duration="150" />
+	<item android:drawable="@drawable/kp14" android:duration="150" />
+	<item android:drawable="@drawable/kp17" android:duration="150" />
+	<item android:drawable="@drawable/kp21" android:duration="150" />
+	<item android:drawable="@drawable/kp24" android:duration="150" />
+	<item android:drawable="@drawable/kp27" android:duration="150" />
+	<item android:drawable="@drawable/kp31" android:duration="150" />
+	<item android:drawable="@drawable/kp34" android:duration="150" />
+	<item android:drawable="@drawable/kp37" android:duration="150" />
+	<item android:drawable="@drawable/kp41" android:duration="150" />
+	<item android:drawable="@drawable/kp44" android:duration="150" />
+	<item android:drawable="@drawable/kp47" android:duration="150" />
+	<item android:drawable="@drawable/kp51" android:duration="150" />
+	<item android:drawable="@drawable/kp54" android:duration="150" />
+	<item android:drawable="@drawable/kp57" android:duration="150" />
+	<item android:drawable="@drawable/kp61" android:duration="150" />
+
+</animation-list>

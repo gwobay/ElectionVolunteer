@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+           android:orientation="vertical" >
+
+<LinearLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"       
+	        android:layout_gravity="center_horizontal"
+           android:orientation="horizontal" >
+           
+        <TextView
+	            android:layout_width="100dp"
+	            android:layout_height="50dp"
+	            android:layout_gravity="left"
+	            android:background="#FFEE00"
+				android:textColor="#0000FF"
+	            android:textSize="20dp"
+	            android:text="@string/friends_are_welcome" />
+        
+        <EditText
+	            android:id="@+id/number"
+	            android:layout_width="100dp"
+	            android:layout_height="50dp"
+	             android:layout_weight="1"
+	            android:paddingLeft="10dp"
+	            android:background="#BBEE99"
+				android:textColor="#0000FF"
+	            android:textSize="30dp"
+	            android:hint="_" />
+        </LinearLayout> 
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"       
+	        android:layout_gravity="center_horizontal"
+           android:orientation="horizontal" >
+        
+	        <Button
+	            android:id="@+id/cancel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="left"
+	            android:background="@drawable/shape_oval_orange"
+	            android:onClick="setHome"
+	            android:text="@string/action_cancel"
+	            android:textColor="#0066ff"
+	            android:textSize="20dp" />
+
+	        <Button
+	            android:id="@+id/accept"
+	           	android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:background="@drawable/shape_oval_green"
+	            android:onClick="setData"
+	            android:paddingLeft="10dp"
+	            android:text="@string/confirm_to_send"
+	            android:textColor="#007733"
+	            android:textSize="20dp" />
+	     <!--"#ffccff" "#ffcc99"  -->   
+       </LinearLayout> 
+    
+</LinearLayout>

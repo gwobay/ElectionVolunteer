@@ -1,0 +1,248 @@
+<resources>
+    <string name="app_name">全國電子雲圖檔管理2</string>
+    <string name="setup_new_account">設定新帳號</string>
+    <string name="password">密碼:</string>
+     <string name="enter_password">輸入密碼</string>
+   <string name="title_activity_login">輸入密碼</string>
+   <string name="wrong_password">密碼錯誤，請重試</string>
+        <string name="dialog_passby">支持者</string>
+    <string name="dialog_volunteer">成為志工</string>
+   
+    <string name="reply_hint">在此回信，結束後，按上方的傳送鈕送出</string>
+    
+    <!--  "Candidate Blue-Print",  "New Agenda", "Candidate Photos", "Candidate Broadcasting",
+				"Candidate Current Position", "Messaging Team-mates", "Visited History",
+				"Fund Raise History", "My Calendar Reminder", "My Commitment",  
+		    "Personal Information"  -->
+    <string-array name="page_array">
+        <item>建立 個人資料</item>
+        <item>瀏覽檔案集</item>
+        <item>上傳影像</item>
+        <item>下載影像</item>
+        <item>活動通知</item>
+    </string-array>
+
+    <string-array name="page_arrayAA">
+        <item>工作交代與討論</item>        
+        <item>主題討論與志工對話室</item>
+        <item>我的拜訪記錄</item>
+        <item>我的募款記錄</item>
+        <item>我的近期工作備忘錄</item>
+        <item>我自訂的工作目標</item>
+        <item>個人資料</item>
+        <item>關閉結束</item>
+        
+    </string-array>
+    
+     <string-array name="what_I_thought">
+        <item>一個國家不應該分成兩個世界，</item>
+        <item> 蘭州國宅的問題必須解決，</item>
+        <item> 不可因為政府的怠惰而一直拖延下去</item>
+        <item> 柯文哲的政策主張，是貼近市民生活的道路挖補、</item>
+        <item> 食品安全、，教育與醫療資源的平等</item>
+       <item> --------------------------</item>
+        <item> 我知道人不可能生而平等，但是起碼機會要平等。</item>
+           <item> 庶民主義的精神是，</item>
+           <item> 一個人如果他有興趣要參與政治，</item>
+           <item> 如果他對公共事務有興趣參與，</item>
+           <item> 他應當有一個平等的機會去參與。</item>
+           <item> 我的參政就是庶民主義的實踐。</item>
+        <item> --------------------------</item>
+        <item>因為我的口才不好， 所以我仔細傾聽。</item>
+		<item>當所有台北市民的聲音可被聽到的時候，</item>
+		<item>這不就是直接民主嗎？</item>
+		<item>這就是我主張「開放政府、全民參與」的源頭。</item>
+		<item>民主政治不應只是讓選民四年投一次票而已，</item>
+		<item>應該開放資訊讓市民檢驗，讓選民天天可以表達意見</item>
+		<item>既然網路發展這麼進步，透過網路投票提供決策參考，</item>
+		<item>並且匡列預算給市民提案，</item>
+		<item>讓台北市民的創意與活力進入市政府的運作。</item>
+	    <item>網路鄉民其實就是社區公民，</item>
+	        <item>公民主義的第一步就是透過網路實現。</item>
+        <item>透過參與式預算的方式，</item>
+           <item> 市民對預算有提案權、有審核權，</item>
+           <item>可以達到一個全民參與的境界</item>
+        <item> --------------------------</item>
+        <item>我在台大醫院的工作，</item>
+		 <item>最大的挑戰就是常常須決定一個人的生死，</item>
+		  <item>這個工作必須理性、冷靜、抗壓性高，不能有差錯，</item>
+		  <item>每一個決定的結果都是一個家庭的悲歡離合。</item>
+		  <item>「生死決策」的經驗，對於未來處理台北市政是有幫助的，</item>
+		  <item>因為尊重生命所以也對世間的一切真誠，</item>
+		   <item> 我重視數據、處事理性公正，但也更尊重人性親情。</item>
+		     
+		     
+    </string-array>
+       
+    <string name="personal_infomation">個人資料</string>
+    <string name="to_modify">開始修改</string>
+    
+    <string name="drawer_open">打開瀏覽匣</string>
+    <string name="drawer_close">關閉瀏覽匣</string>
+    <string name="app_not_available">對不起，沒有網路瀏覽器</string>
+    
+    	<string name="welcome_to_join">歡迎加入志工行列</string>
+		<string name="create_profile">建立 個人資料</string>
+  		<string name="hello_world">哈囉!</string>
+		<string name="first_name">名字</string>
+		<string name="last_name">姓</string>
+		<string name="nick_name">綽號</string>
+		<string name="citizen_id">身份證:</string>
+    	<string name="street_and_number">街道及門牌號碼</string>
+		<string name="address_city">市鎮鄉</string>
+		<string name="address_zipcode">郵遞區號</string>
+		<string name="address_state">縣市</string>
+		<string name="i_join">確定參加</string>
+		<string name="get_picture">挑選新的個人大頭照</string>
+		<string name="profile_photo">個人大頭照</string>
+		<string name="wait_4_photo">大頭照已下載完，按一下更新</string>
+    	<string name="get_notfy_rington">挑選訊息鈴聲</string>
+    	<string name="no_noise_period">勿干擾時段</string>
+     <string name="no_noise_period_begin">勿干擾時段開始</string>
+   <string name="no_noise_period_end">勿干擾時段結束</string>
+   	<string name="managing_experience">曾經領導管理人數</string> 		
+	<string name="team_id">隊號</string>
+    <string name="badge_id">志工號碼</string>
+    <string name="rank">級別</string>
+    <string name="managed_head_count">帶領人數</string> 		
+		<string name="wait_for_server_response">等待主機回應...</string>
+    	<string name="progress_circle">等待主機回應...</string>
+    
+		<string name="button_send">確定</string>
+		<string name="pick_birthday">(點選)生日</string>
+		<string name="birthday">生日</string>
+		<string name="sex">男女性別</string>
+    <string name="birth_date">1996/02/02</string>
+    	<string name="mobile_number">手機號碼</string>
+    	<string name="rank1">志工級別</string>
+    	
+    	<string name="welcome_to_participate1">您的參與和協助，讓我們又向成功邁進了一大步</string>
+    	<string name="welcome_to_participate2">(請寫下您可協助的項目，我們一起來完成)</string>
+ 		<string name="set_commitment">我的近期工作備忘錄</string>
+        
+    	<string name="commit_visit">拜訪選民</string>
+    	
+<string name="visits_per_week">次/每週</string>		
+<string name="once">0</string>
+<string name="hours_per_visit">小時/次</string>
+<string name="commit_fund_raise">協助募款</string>
+<string name="commit_event">參加候選人造勢</string>
+<string name="office_support">行政支援</string>
+<string name="specialty_list">請登記您的特殊專長; 例如:打字，動畫，主持節目</string>
+<string name="expertee">特殊專長:</string>
+<string name="set_goal">確認設定志工標的</string>
+
+	<string name="blue_print">候選人施政藍圖</string>
+	<string name="comment">您的評論</string>
+
+	<string name="new_agenda">最新活動</string>
+    <string name="agenda">活動</string>
+    <string name="event_title">活動名稱</string>
+     <string name="set_date_time">設定活動日期時間</string>
+    <string name="event_date">活動日期</string>
+     <string name="event_time">活動時間</string>
+    <string name="event_location">活動地點</string>
+    <string name="event_city">台北市</string>
+    <string name="description">內容細節</string>
+    <string name="event_host">主持人</string>
+    <string name="contact_number">連絡電話</string>	
+    <string name="send">確定送出</string>
+    <string name="number_of_participant">參加人數</string>
+	<string name="need_man">人力支援需求</string>
+    <string name="need_equipment">裝設支援需求</string>
+    <string name="need_money">財務支援需求</string>
+    <string name="need_your_participate">需要您的參與[請按上頭"我-參加"的縮影]</string>
+    <string name="work_memo">工作備忘錄</string>
+        <string name="memo_date">日期</string>
+    <string name="memo_subject">主題</string>
+    <string name="memo_description">內容細節</string>
+    
+    <string name="candidate_photo">候選人活動照片</string>
+    <string name="taken_date">拍攝時間</string>
+    <string name="candidate_vocal">候選人演講</string>
+    <string name="record_date">錄製時間</string>
+    <string name="confirm_cancel">確定取消</string>
+        <string name="forget">不了!</string>
+       
+<!-- visiting page  -->
+<string name="visiting_form">拜訪選民回報</string>
+<string name="visiting_date">拜訪日期</string>
+<string name="full_name">選民姓名</string>
+<string name="address_street">選民門牌號碼</string>
+<string name="rating">受訪者反應</string>
+    <string-array name="voter_rating">
+        <item>願參加志工隊</item>
+        <item>願意贊助</item>
+        <item>會參加造勢</item>
+        <item>願參加粉絲團</item>
+        <item>願意推薦</item>
+        <item>一定投票給他</item>
+        <item>可能投票給他</item>
+        <item>會考慮了解他</item>
+        <item>尚未決定</item>
+        <item>沒有興趣</item>
+        <item>拒絕往來</item>
+    </string-array>
+<string name="next_visiting_date">下次再訪可能日期</string>
+<string name="confirm_to_send">確定送出記錄</string>
+<!-- visiting page end -->
+
+<!-- fund_raised page  -->
+<string name="fund_raise_form">選民募款記錄回報</string>
+<string name="fund_raised_date">募款日期</string>
+<string name="amount">募款總額</string>
+<string name="receipt_number">收據號碼</string>
+<!-- fund_raised page end -->
+<!-- chat room page  -->
+    <string-array name="chat_room_array">
+        <item>參加主題討論室</item>
+        <item>開啟主題討論室</item>
+        <item>參加團隊討論室</item>
+        <item>開啟團隊討論室</item>
+        <item>與隊員對談</item>
+        <item>報備不正當使用討論室案例</item>
+        <item>挑選討論室背景</item>
+        <item>回主頁</item>
+    </string-array>
+<!-- chat room page  -->
+<string name="chat_room">討論室</string>
+<string name="anchor">討論室主持</string>
+<string name="body_list">同僚名單</string>
+<string name="invite">邀請</string>
+<string name="check_room_list">可參加的討論室</string>
+<string name="join_room">加入討論室</string>
+<string name="speaker_photo">發言者照片</string>
+<string name="my_photo">我的照片</string>
+<string name="write_message">輸入</string>
+<string name="send_message">送出</string>
+
+	<string name="click_record_to_open">點擊可查看活動細節</string>
+    	<string name="number_participants">參加人數</string>
+       <string name="title_activity_display_message">送交資料</string>
+		<string name="action_search">搜尋</string>
+		<string name="button_check_activities">查看新活動</string>
+    <string name="title_activity_list_event_url">最新活動</string>
+    <string name="google_map">GOOGLE 地圖</string>
+    
+        <string name="title_activity_open_url">開啟記錄</string>
+    <string name="action_websearch">網路搜尋</string>
+    <string name="action_settings">設定</string>
+    <string name="add_new">增加</string>
+    <string name="action_modify">修改</string>
+        <string name="action_cancel">取消</string>
+       <string name="action_delete">刪除</string>
+        <string name="i_reply">回應</string>
+        <string name="i_retry">返前頁</string>
+        <string name="delete">刪除</string>
+        <string name="back_home">回首頁</string>
+        <string name="save">儲存</string>
+         <string name="Check">察看</string>
+       <string name="record_status">是否參加</string>    
+        <string name="friends_are_welcome">人數(歡迎您及朋友參加)</string>
+        <string name="revise">修改</string>
+        <string name="action_approve">讚</string>
+        <string name="candidate_name">柯文哲</string>
+         <string name="msg_for_you">訊息給您</string>   
+         <string name="memo_author">發信者</string>
+ 	   
+</resources>

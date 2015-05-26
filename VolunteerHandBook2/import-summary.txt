@@ -1,0 +1,635 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ConnectionResources
+* bkp\
+* bkp\Agenda.java
+* bkp\AgendaActivity.java
+* bkp\AgendaRecord.java
+* bkp\DaemonCallSocket.java
+* bkp\DbProcessor.java
+* bkp\DemoActivity.java
+* bkp\FixLineService.java
+* bkp\FixLineTranslator.java
+* bkp\GcmBroadcastReceiver.java
+* bkp\GcmIntentService.java
+* bkp\IOSocket.java
+* bkp\KouUtilities\
+* bkp\KouUtilities\backup\
+* bkp\KouUtilities\backup\CallSocket.java
+* bkp\KouUtilities\backup\CommitmentForm.java
+* bkp\KouUtilities\backup\CreateTableSql.java
+* bkp\KouUtilities\backup\DB_Instruction.java
+* bkp\KouUtilities\backup\DataProcessor.java
+* bkp\KouUtilities\backup\FillTableTestData.java
+* bkp\KouUtilities\backup\IOSocket.java
+* bkp\KouUtilities\backup\MainServer.java
+* bkp\KouUtilities\backup\MessageParser.java
+* bkp\KouUtilities\backup\ProcessingSocket.java
+* bkp\KouUtilities\backup\TableRow.java
+* bkp\KouUtilities\backup\fld_type
+* bkp\KouUtilities\backup\package-info.java
+* bkp\KouUtilities\backup\res\
+* bkp\KouUtilities\backup\res\drawable-hdpi\
+* bkp\KouUtilities\backup\res\drawable-hdpi\CVS\
+* bkp\KouUtilities\backup\res\drawable-hdpi\CVS\Entries
+* bkp\KouUtilities\backup\res\drawable-hdpi\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\drawable-hdpi\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\drawable-hdpi\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\drawable-hdpi\CVS\Repository
+* bkp\KouUtilities\backup\res\drawable-hdpi\CVS\Root
+* bkp\KouUtilities\backup\res\drawable-hdpi\action_search.png
+* bkp\KouUtilities\backup\res\drawable-hdpi\drawer_shadow.9.png
+* bkp\KouUtilities\backup\res\drawable-hdpi\ic_drawer.png
+* bkp\KouUtilities\backup\res\drawable-hdpi\ic_launcher.png
+* bkp\KouUtilities\backup\res\drawable-hdpi\kp_43.png
+* bkp\KouUtilities\backup\res\drawable-ldpi\
+* bkp\KouUtilities\backup\res\drawable-ldpi\CVS\
+* bkp\KouUtilities\backup\res\drawable-ldpi\CVS\Entries
+* bkp\KouUtilities\backup\res\drawable-ldpi\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\drawable-ldpi\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\drawable-ldpi\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\drawable-ldpi\CVS\Repository
+* bkp\KouUtilities\backup\res\drawable-ldpi\CVS\Root
+* bkp\KouUtilities\backup\res\drawable-mdpi\
+* bkp\KouUtilities\backup\res\drawable-mdpi\CVS\
+* bkp\KouUtilities\backup\res\drawable-mdpi\CVS\Entries
+* bkp\KouUtilities\backup\res\drawable-mdpi\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\drawable-mdpi\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\drawable-mdpi\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\drawable-mdpi\CVS\Repository
+* bkp\KouUtilities\backup\res\drawable-mdpi\CVS\Root
+* bkp\KouUtilities\backup\res\drawable-mdpi\action_search.png
+* bkp\KouUtilities\backup\res\drawable-mdpi\drawer_shadow.9.png
+* bkp\KouUtilities\backup\res\drawable-mdpi\ic_drawer.png
+* bkp\KouUtilities\backup\res\drawable-mdpi\ic_launcher.png
+* bkp\KouUtilities\backup\res\drawable-xhdpi\
+* bkp\KouUtilities\backup\res\drawable-xhdpi\CVS\
+* bkp\KouUtilities\backup\res\drawable-xhdpi\CVS\Entries
+* bkp\KouUtilities\backup\res\drawable-xhdpi\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\drawable-xhdpi\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\drawable-xhdpi\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\drawable-xhdpi\CVS\Repository
+* bkp\KouUtilities\backup\res\drawable-xhdpi\CVS\Root
+* bkp\KouUtilities\backup\res\drawable-xhdpi\action_search.png
+* bkp\KouUtilities\backup\res\drawable-xhdpi\drawer_shadow.9.png
+* bkp\KouUtilities\backup\res\drawable-xhdpi\ic_drawer.png
+* bkp\KouUtilities\backup\res\drawable-xhdpi\ic_launcher.png
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\CVS\
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\CVS\Entries
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\CVS\Repository
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\CVS\Root
+* bkp\KouUtilities\backup\res\drawable-xxhdpi\ic_launcher.png
+* bkp\KouUtilities\backup\res\drawable\
+* bkp\KouUtilities\backup\res\drawable\CVS\
+* bkp\KouUtilities\backup\res\drawable\CVS\Entries
+* bkp\KouUtilities\backup\res\drawable\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\drawable\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\drawable\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\drawable\CVS\Repository
+* bkp\KouUtilities\backup\res\drawable\CVS\Root
+* bkp\KouUtilities\backup\res\drawable\back_delete.png
+* bkp\KouUtilities\backup\res\drawable\gifs\
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-0.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-1.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-10.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-11.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-12.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-13.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-14.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-15.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-16.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-17.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-18.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-19.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-2.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-20.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-21.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-22.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-23.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-24.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-25.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-26.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-27.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-28.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-29.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-3.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-30.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-31.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-32.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-33.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-34.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-35.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-36.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-37.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-38.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-39.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-4.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-40.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-41.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-42.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-43.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-44.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-45.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-46.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-47.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-48.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-49.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-5.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-50.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-51.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-52.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-53.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-54.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-55.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-56.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-57.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-58.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-59.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-6.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-60.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-61.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-62.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-63.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-7.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-8.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp-9.png
+* bkp\KouUtilities\backup\res\drawable\gifs\kp.gif
+* bkp\KouUtilities\backup\res\drawable\gifs\pnglist
+* bkp\KouUtilities\backup\res\drawable\gifs\pnglist.s
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-0.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-1.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-10.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-11.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-12.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-13.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-14.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-15.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-16.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-17.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-18.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-19.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-2.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-20.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-21.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-22.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-23.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-24.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-25.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-26.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-27.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-28.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-29.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-3.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-30.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-31.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-32.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-33.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-34.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-35.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-36.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-37.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-38.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-39.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-4.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-40.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-41.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-5.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-6.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-7.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-8.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle-9.png
+* bkp\KouUtilities\backup\res\drawable\gifs\progress_circle.gif
+* bkp\KouUtilities\backup\res\drawable\ic_stat_gcm.png
+* bkp\KouUtilities\backup\res\drawable\kp.gif
+* bkp\KouUtilities\backup\res\drawable\kp1.png
+* bkp\KouUtilities\backup\res\drawable\kp11.png
+* bkp\KouUtilities\backup\res\drawable\kp14.png
+* bkp\KouUtilities\backup\res\drawable\kp17.png
+* bkp\KouUtilities\backup\res\drawable\kp21.png
+* bkp\KouUtilities\backup\res\drawable\kp24.png
+* bkp\KouUtilities\backup\res\drawable\kp27.png
+* bkp\KouUtilities\backup\res\drawable\kp31.png
+* bkp\KouUtilities\backup\res\drawable\kp34.png
+* bkp\KouUtilities\backup\res\drawable\kp37.png
+* bkp\KouUtilities\backup\res\drawable\kp4.png
+* bkp\KouUtilities\backup\res\drawable\kp41.png
+* bkp\KouUtilities\backup\res\drawable\kp44.png
+* bkp\KouUtilities\backup\res\drawable\kp47.png
+* bkp\KouUtilities\backup\res\drawable\kp51.png
+* bkp\KouUtilities\backup\res\drawable\kp54.png
+* bkp\KouUtilities\backup\res\drawable\kp57.png
+* bkp\KouUtilities\backup\res\drawable\kp61.png
+* bkp\KouUtilities\backup\res\drawable\kp7.png
+* bkp\KouUtilities\backup\res\drawable\kp_gif_frames.xml
+* bkp\KouUtilities\backup\res\drawable\kp_logo.png
+* bkp\KouUtilities\backup\res\drawable\ok.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle.gif
+* bkp\KouUtilities\backup\res\drawable\progress_circle11.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle13.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle16.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle18.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle21.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle23.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle26.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle28.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle3.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle31.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle36.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle38.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle6.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle8.png
+* bkp\KouUtilities\backup\res\drawable\progress_circle_frames.xml
+* bkp\KouUtilities\backup\res\layout\
+* bkp\KouUtilities\backup\res\layout\activity_main.xml
+* bkp\KouUtilities\backup\res\layout\activity_open_uri.xml
+* bkp\KouUtilities\backup\res\layout\activity_open_url.xml
+* bkp\KouUtilities\backup\res\layout\commitment_form.xml
+* bkp\KouUtilities\backup\res\layout\drawer_list_item.xml
+* bkp\KouUtilities\backup\res\layout\fragment_main_dummy.xml
+* bkp\KouUtilities\backup\res\layout\fragment_planet.xml
+* bkp\KouUtilities\backup\res\layout\freshman_personal_page.xml
+* bkp\KouUtilities\backup\res\layout\fund_raised_form.xml
+* bkp\KouUtilities\backup\res\layout\list_row.xml
+* bkp\KouUtilities\backup\res\layout\list_view.xml
+* bkp\KouUtilities\backup\res\layout\overlay_layout.xml
+* bkp\KouUtilities\backup\res\layout\personal_page.xml
+* bkp\KouUtilities\backup\res\layout\visited_form.xml
+* bkp\KouUtilities\backup\res\layout\waiting_response.xml
+* bkp\KouUtilities\backup\res\layout\web_page.xml
+* bkp\KouUtilities\backup\res\menu\
+* bkp\KouUtilities\backup\res\menu\CVS\
+* bkp\KouUtilities\backup\res\menu\CVS\Entries
+* bkp\KouUtilities\backup\res\menu\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\menu\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\menu\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\menu\CVS\Repository
+* bkp\KouUtilities\backup\res\menu\CVS\Root
+* bkp\KouUtilities\backup\res\menu\main.xml
+* bkp\KouUtilities\backup\res\menu\open_url.xml
+* bkp\KouUtilities\backup\res\raw\
+* bkp\KouUtilities\backup\res\raw\CVS\
+* bkp\KouUtilities\backup\res\raw\CVS\Entries
+* bkp\KouUtilities\backup\res\raw\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\raw\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\raw\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\raw\CVS\Repository
+* bkp\KouUtilities\backup\res\raw\CVS\Root
+* bkp\KouUtilities\backup\res\raw\kp_grateful.mp3
+* bkp\KouUtilities\backup\res\raw\progress_circle.gif
+* bkp\KouUtilities\backup\res\values-sw600dp\
+* bkp\KouUtilities\backup\res\values-sw600dp\CVS\
+* bkp\KouUtilities\backup\res\values-sw600dp\CVS\Entries
+* bkp\KouUtilities\backup\res\values-sw600dp\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\values-sw600dp\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\values-sw600dp\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\values-sw600dp\CVS\Repository
+* bkp\KouUtilities\backup\res\values-sw600dp\CVS\Root
+* bkp\KouUtilities\backup\res\values-sw600dp\dimens.xml
+* bkp\KouUtilities\backup\res\values-sw720dp-land\
+* bkp\KouUtilities\backup\res\values-sw720dp-land\CVS\
+* bkp\KouUtilities\backup\res\values-sw720dp-land\CVS\Entries
+* bkp\KouUtilities\backup\res\values-sw720dp-land\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\values-sw720dp-land\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\values-sw720dp-land\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\values-sw720dp-land\CVS\Repository
+* bkp\KouUtilities\backup\res\values-sw720dp-land\CVS\Root
+* bkp\KouUtilities\backup\res\values-sw720dp-land\dimens.xml
+* bkp\KouUtilities\backup\res\values-v11\
+* bkp\KouUtilities\backup\res\values-v11\CVS\
+* bkp\KouUtilities\backup\res\values-v11\CVS\Entries
+* bkp\KouUtilities\backup\res\values-v11\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\values-v11\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\values-v11\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\values-v11\CVS\Repository
+* bkp\KouUtilities\backup\res\values-v11\CVS\Root
+* bkp\KouUtilities\backup\res\values-v11\styles.xml
+* bkp\KouUtilities\backup\res\values-v14\
+* bkp\KouUtilities\backup\res\values-v14\CVS\
+* bkp\KouUtilities\backup\res\values-v14\CVS\Entries
+* bkp\KouUtilities\backup\res\values-v14\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\values-v14\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\values-v14\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\values-v14\CVS\Repository
+* bkp\KouUtilities\backup\res\values-v14\CVS\Root
+* bkp\KouUtilities\backup\res\values-v14\styles.xml
+* bkp\KouUtilities\backup\res\values-zh-rTW\
+* bkp\KouUtilities\backup\res\values-zh-rTW\CVS\
+* bkp\KouUtilities\backup\res\values-zh-rTW\CVS\Entries
+* bkp\KouUtilities\backup\res\values-zh-rTW\CVS\Entries.Extra
+* bkp\KouUtilities\backup\res\values-zh-rTW\CVS\Entries.Extra.Old
+* bkp\KouUtilities\backup\res\values-zh-rTW\CVS\Entries.Old
+* bkp\KouUtilities\backup\res\values-zh-rTW\CVS\Repository
+* bkp\KouUtilities\backup\res\values-zh-rTW\CVS\Root
+* bkp\KouUtilities\backup\res\values-zh-rTW\strings.xml
+* bkp\KouUtilities\backup\res\values\
+* bkp\KouUtilities\backup\res\values\dimens.xml
+* bkp\KouUtilities\backup\res\values\strings.xml
+* bkp\KouUtilities\backup\res\values\styles.xml
+* bkp\KouUtilities\backup\volunteerhandbook\
+* bkp\KouUtilities\backup\volunteerhandbook\CommitmentForm.java
+* bkp\KouUtilities\backup\volunteerhandbook\DatePickerFragment.java
+* bkp\KouUtilities\backup\volunteerhandbook\FundRaisedForm.java
+* bkp\KouUtilities\backup\volunteerhandbook\GcmBroadcastReceiver.java
+* bkp\KouUtilities\backup\volunteerhandbook\GcmIntentService.java
+* bkp\KouUtilities\backup\volunteerhandbook\GcmRegistration.java
+* bkp\KouUtilities\backup\volunteerhandbook\GifViewer.java
+* bkp\KouUtilities\backup\volunteerhandbook\ListRecords.java
+* bkp\KouUtilities\backup\volunteerhandbook\LoginFragment.java
+* bkp\KouUtilities\backup\volunteerhandbook\MainActivity.java
+* bkp\KouUtilities\backup\volunteerhandbook\OpenUrlActivity.java
+* bkp\KouUtilities\backup\volunteerhandbook\PageFragment.java
+* bkp\KouUtilities\backup\volunteerhandbook\PersonalPageView.java
+* bkp\KouUtilities\backup\volunteerhandbook\SendTestLine.java
+* bkp\KouUtilities\backup\volunteerhandbook\ShowProgressDialog.java
+* bkp\KouUtilities\backup\volunteerhandbook\TestDialog.java
+* bkp\KouUtilities\backup\volunteerhandbook\VisitedForm.java
+* bkp\KouUtilities\backup\volunteerhandbook\client_secret_992881316154.apps.googleusercontent.com.json
+* bkp\KouUtilities\backup\volunteerhandbook\package-info.java
+* bkp\KouUtilities\backup\volunteerhandbook\rate_spiner.java
+* bkp\KouUtilities\bin\
+* bkp\KouUtilities\bin\com\
+* bkp\KouUtilities\bin\com\kou\
+* bkp\KouUtilities\bin\com\kou\utilities\
+* bkp\KouUtilities\bin\com\kou\utilities\CallSocket.class
+* bkp\KouUtilities\bin\com\kou\utilities\CreateTableSql.class
+* bkp\KouUtilities\bin\com\kou\utilities\DB_Instruction.class
+* bkp\KouUtilities\bin\com\kou\utilities\DataProcessor$Cust_Instruction.class
+* bkp\KouUtilities\bin\com\kou\utilities\DataProcessor$sqlThread.class
+* bkp\KouUtilities\bin\com\kou\utilities\DataProcessor.class
+* bkp\KouUtilities\bin\com\kou\utilities\FillTableTestData.class
+* bkp\KouUtilities\bin\com\kou\utilities\IOSocket.class
+* bkp\KouUtilities\bin\com\kou\utilities\MainServer.class
+* bkp\KouUtilities\bin\com\kou\utilities\MessageParser$1.class
+* bkp\KouUtilities\bin\com\kou\utilities\MessageParser$2.class
+* bkp\KouUtilities\bin\com\kou\utilities\MessageParser.class
+* bkp\KouUtilities\bin\com\kou\utilities\ProcessingSocket.class
+* bkp\KouUtilities\bin\com\kou\utilities\TableRow.class
+* bkp\KouUtilities\bin\com\kou\utilities\fld_type
+* bkp\KouUtilities\bin\com\kou\utilities\package-info.class
+* bkp\KouUtilities\lib\
+* bkp\KouUtilities\lib\kou_utilities.jar
+* bkp\KouUtilities\src\
+* bkp\KouUtilities\src\com\
+* bkp\KouUtilities\src\com\kou\
+* bkp\KouUtilities\src\com\kou\utilities\
+* bkp\KouUtilities\src\com\kou\utilities\CallSocket.java
+* bkp\KouUtilities\src\com\kou\utilities\CreateTableSql.java
+* bkp\KouUtilities\src\com\kou\utilities\DB_Instruction.java
+* bkp\KouUtilities\src\com\kou\utilities\DataProcessor.java
+* bkp\KouUtilities\src\com\kou\utilities\FillTableTestData.java
+* bkp\KouUtilities\src\com\kou\utilities\IOSocket.java
+* bkp\KouUtilities\src\com\kou\utilities\MainServer.java
+* bkp\KouUtilities\src\com\kou\utilities\MessageParser.java
+* bkp\KouUtilities\src\com\kou\utilities\ProcessingSocket.java
+* bkp\KouUtilities\src\com\kou\utilities\TableRow.java
+* bkp\KouUtilities\src\com\kou\utilities\fld_type
+* bkp\KouUtilities\src\com\kou\utilities\package-info.java
+* bkp\ListRecordBase.java
+* bkp\LoginFragmentOK.java
+* bkp\MyLocationDemoActivity.java
+* bkp\blank_key.png
+* bkp\client_secret_992881316154.apps.googleusercontent.com.json
+* bkp\create_agenda_form.xml
+* bkp\gifs\
+* bkp\gifs\kp-0.png
+* bkp\gifs\kp-1.png
+* bkp\gifs\kp-10.png
+* bkp\gifs\kp-11.png
+* bkp\gifs\kp-12.png
+* bkp\gifs\kp-13.png
+* bkp\gifs\kp-14.png
+* bkp\gifs\kp-15.png
+* bkp\gifs\kp-16.png
+* bkp\gifs\kp-17.png
+* bkp\gifs\kp-18.png
+* bkp\gifs\kp-19.png
+* bkp\gifs\kp-2.png
+* bkp\gifs\kp-20.png
+* bkp\gifs\kp-21.png
+* bkp\gifs\kp-22.png
+* bkp\gifs\kp-23.png
+* bkp\gifs\kp-24.png
+* bkp\gifs\kp-25.png
+* bkp\gifs\kp-26.png
+* bkp\gifs\kp-27.png
+* bkp\gifs\kp-28.png
+* bkp\gifs\kp-29.png
+* bkp\gifs\kp-3.png
+* bkp\gifs\kp-30.png
+* bkp\gifs\kp-31.png
+* bkp\gifs\kp-32.png
+* bkp\gifs\kp-33.png
+* bkp\gifs\kp-34.png
+* bkp\gifs\kp-35.png
+* bkp\gifs\kp-36.png
+* bkp\gifs\kp-37.png
+* bkp\gifs\kp-38.png
+* bkp\gifs\kp-39.png
+* bkp\gifs\kp-4.png
+* bkp\gifs\kp-40.png
+* bkp\gifs\kp-41.png
+* bkp\gifs\kp-42.png
+* bkp\gifs\kp-43.png
+* bkp\gifs\kp-44.png
+* bkp\gifs\kp-45.png
+* bkp\gifs\kp-46.png
+* bkp\gifs\kp-47.png
+* bkp\gifs\kp-48.png
+* bkp\gifs\kp-49.png
+* bkp\gifs\kp-5.png
+* bkp\gifs\kp-50.png
+* bkp\gifs\kp-51.png
+* bkp\gifs\kp-52.png
+* bkp\gifs\kp-53.png
+* bkp\gifs\kp-54.png
+* bkp\gifs\kp-55.png
+* bkp\gifs\kp-56.png
+* bkp\gifs\kp-57.png
+* bkp\gifs\kp-58.png
+* bkp\gifs\kp-59.png
+* bkp\gifs\kp-6.png
+* bkp\gifs\kp-60.png
+* bkp\gifs\kp-61.png
+* bkp\gifs\kp-62.png
+* bkp\gifs\kp-63.png
+* bkp\gifs\kp-7.png
+* bkp\gifs\kp-8.png
+* bkp\gifs\kp-9.png
+* bkp\gifs\kp.gif
+* bkp\gifs\pnglist
+* bkp\gifs\pnglist.s
+* bkp\gifs\progress_circle-0.png
+* bkp\gifs\progress_circle-1.png
+* bkp\gifs\progress_circle-10.png
+* bkp\gifs\progress_circle-11.png
+* bkp\gifs\progress_circle-12.png
+* bkp\gifs\progress_circle-13.png
+* bkp\gifs\progress_circle-14.png
+* bkp\gifs\progress_circle-15.png
+* bkp\gifs\progress_circle-16.png
+* bkp\gifs\progress_circle-17.png
+* bkp\gifs\progress_circle-18.png
+* bkp\gifs\progress_circle-19.png
+* bkp\gifs\progress_circle-2.png
+* bkp\gifs\progress_circle-20.png
+* bkp\gifs\progress_circle-21.png
+* bkp\gifs\progress_circle-22.png
+* bkp\gifs\progress_circle-23.png
+* bkp\gifs\progress_circle-24.png
+* bkp\gifs\progress_circle-25.png
+* bkp\gifs\progress_circle-26.png
+* bkp\gifs\progress_circle-27.png
+* bkp\gifs\progress_circle-28.png
+* bkp\gifs\progress_circle-29.png
+* bkp\gifs\progress_circle-3.png
+* bkp\gifs\progress_circle-30.png
+* bkp\gifs\progress_circle-31.png
+* bkp\gifs\progress_circle-32.png
+* bkp\gifs\progress_circle-33.png
+* bkp\gifs\progress_circle-34.png
+* bkp\gifs\progress_circle-35.png
+* bkp\gifs\progress_circle-36.png
+* bkp\gifs\progress_circle-37.png
+* bkp\gifs\progress_circle-38.png
+* bkp\gifs\progress_circle-39.png
+* bkp\gifs\progress_circle-4.png
+* bkp\gifs\progress_circle-40.png
+* bkp\gifs\progress_circle-41.png
+* bkp\gifs\progress_circle-5.png
+* bkp\gifs\progress_circle-6.png
+* bkp\gifs\progress_circle-7.png
+* bkp\gifs\progress_circle-8.png
+* bkp\gifs\progress_circle-9.png
+* bkp\gifs\progress_circle.gif
+* bkp\ic_action_open.jpg
+* bkp\kp_logo.png
+* bkp\log.txt
+* bkp\profile_form.xml
+* bkp\shape_oval.xml
+* bkp\shape_oval_green.xml
+* bkp\shape_oval_orange_large.xml
+* bkp\transition_large.xml
+* bkp\utilities\
+* bkp\utilities\CallSocket.java
+* bkp\utilities\CreateTableSql.java
+* bkp\utilities\DB_Instruction.java
+* bkp\utilities\DataProcessor.java
+* bkp\utilities\FillTableTestData.java
+* bkp\utilities\IOSocket.java
+* bkp\utilities\MainServer.java
+* bkp\utilities\MessageParser.java
+* bkp\utilities\ProcessingSocket.java
+* bkp\utilities\TableRow.java
+* bkp\utilities\fld_type
+* bkp\utilities\package-info.java
+* hs_err_pid100200.log
+* hs_err_pid68576.log
+* hs_err_pid90032.log
+* hs_err_pid92848.log
+* ic_action_check-web.png
+* ic_action_join-web.png
+* ic_launcher-web.png
+* kou_utilities.jar
+* proguard-project.txt
+* res0516.zip
+* res0517.zip
+* res0523.zip
+* res0527.zip
+* res0530.zip
+* res0602.zip
+* res0615.zip
+* res0616.zip
+* res18.zip
+* res22.zip
+* resOK18.zip
+* src0512.zip
+* src0516.zip
+* src0517.zip
+* src0523.zip
+* src0527.zip
+* src0530.zip
+* src0602.zip
+* src0615.zip
+* src0616.zip
+* src18.zip
+* src22.zip
+* src23.zip
+* srcoOK18.zip
+* working note
+* working schedule
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:18.0.0]
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* Entries.Extra => Entries.extra
+* Entries.Extra.Old => Entries.extra.old
+* Entries.Old => Entries.old
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

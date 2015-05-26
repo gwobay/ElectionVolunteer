@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-a2196f4922c73bc699af449d44662aae3c713a14.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-d39658598fc8b8f38337a5e763ed7c8af14c3e3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-da8aeac38489a34c274b258b605c82a9c7b17579.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-c45fffd41450aa110671196bcbcd26f68146606b.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-5eaa8feafb959b164ccd390a967205c2907758a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-70aa77540e9404d48a6b44fcf90c941dbdd64bec.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-2400d198037be36464f8a08d98730a818208ed1b.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-7d64ec1f56c698c203890d85d045e66846265fab.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-2caa8a89b59f6899f2be626ede807a6e6c75fe46.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-8f70c9f048cec5c1fce16afbe322de8f5411398e.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-5f68ab945dc65e97fb2a30f60eae7b19058ede0b.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-4f9f5527e3004ae98788b43a9e2cde380cd72d4f.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-761c12a67eae2c08e8f05dce6626da464fc69e00.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-7af4e5a83432a91b2997f81dedfd1f03f9da770f.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-a2580eaf77a51ad4328d23244a3612db9ace7d23.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-6277e3c28704505f0400f02937de827258a3f3a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-0f4dd5b723c8493495718fd8c89b310b06313e9a.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-de2be2dc804b43b1d5d0cf70548819b3ebe3cae1.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-f16f29bef621f1029fc993578583c60c3caa0deb.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-0573888fdb2e0656665dc699b3b70f6787d6dddd.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-31aafd5ba09cdfb1ac39af069d82e6e50ed15e28.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-17a65564459dea1fcc5e98051a1fedf943037ac9.jar" />
+    </item>
+    <item
+        jar="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\erickou\AndroidstudioProjects\VolunteerHandBook2\app\build\intermediates\pre-dexed\debug\classes-babc8514e2ee2d6ef7afd690d593a4153636678b.jar" />
+    </item>
+
+</items>

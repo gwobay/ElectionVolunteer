@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nija_gif" android:oneshot="false" >
+    
+<item android:drawable="@drawable/nija0" android:duration="150" />
+<item android:drawable="@drawable/nija10" android:duration="150" />
+<item android:drawable="@drawable/nija11" android:duration="150" />
+<item android:drawable="@drawable/nija12" android:duration="150" />
+<item android:drawable="@drawable/nija13" android:duration="150" />
+<item android:drawable="@drawable/nija14" android:duration="150" />
+<item android:drawable="@drawable/nija15" android:duration="150" />
+<item android:drawable="@drawable/nija16" android:duration="150" />
+<item android:drawable="@drawable/nija17" android:duration="150" />
+<item android:drawable="@drawable/nija18" android:duration="150" />
+<item android:drawable="@drawable/nija19" android:duration="150" />
+<item android:drawable="@drawable/nija1" android:duration="150" />
+<item android:drawable="@drawable/nija20" android:duration="150" />
+<item android:drawable="@drawable/nija21" android:duration="150" />
+<item android:drawable="@drawable/nija22" android:duration="150" />
+<item android:drawable="@drawable/nija23" android:duration="150" />
+<item android:drawable="@drawable/nija24" android:duration="150" />
+<item android:drawable="@drawable/nija25" android:duration="150" />
+<item android:drawable="@drawable/nija26" android:duration="150" />
+<item android:drawable="@drawable/nija27" android:duration="150" />
+<item android:drawable="@drawable/nija28" android:duration="150" />
+<item android:drawable="@drawable/nija29" android:duration="150" />
+<item android:drawable="@drawable/nija2" android:duration="150" />
+<item android:drawable="@drawable/nija30" android:duration="150" />
+<item android:drawable="@drawable/nija31" android:duration="150" />
+<item android:drawable="@drawable/nija32" android:duration="150" />
+<item android:drawable="@drawable/nija33" android:duration="150" />
+<item android:drawable="@drawable/nija34" android:duration="150" />
+<item android:drawable="@drawable/nija35" android:duration="150" />
+<item android:drawable="@drawable/nija36" android:duration="150" />
+<item android:drawable="@drawable/nija37" android:duration="150" />
+<item android:drawable="@drawable/nija38" android:duration="150" />
+<item android:drawable="@drawable/nija39" android:duration="150" />
+<item android:drawable="@drawable/nija3" android:duration="150" />
+<item android:drawable="@drawable/nija40" android:duration="150" />
+<item android:drawable="@drawable/nija41" android:duration="150" />
+<item android:drawable="@drawable/nija42" android:duration="150" />
+<item android:drawable="@drawable/nija43" android:duration="150" />
+
+</animation-list>

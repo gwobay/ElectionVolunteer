@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	    <TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#0FF"
+			android:textSize="20sp"
+			android:textStyle="italic"
+			android:text="   " />
+	   <TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#700"
+			android:textSize="28sp"
+			android:textStyle="italic"
+			android:text="@string/welcome_to_participate1" />
+	    <TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#0FF"
+			android:textSize="20sp"
+			android:textStyle="italic"
+			android:text="   " />	   
+    	<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#0FF"
+			android:textSize="20sp"
+			android:background="#550" 
+			android:textStyle="italic"
+			android:text="@string/welcome_to_participate2" />
+	   
+	<TableLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal">
+		<View
+        	android:layout_height="2dip"
+        	android:background="#FF909090" />
+	    
+		<TableRow>
+		    
+		   	<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="20sp"
+				android:text="------" />
+		     <TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:paddingLeft="20sp"
+				android:textSize="20sp"
+				android:text="@string/visits_per_week" />
+		    <TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:paddingLeft="20sp"
+				android:textSize="20sp"
+				android:text="@string/hours_per_visit" />
+		</TableRow>	
+		<View
+        	android:layout_height="2dip"
+        	android:background="#FF909090" />
+		<TableRow>
+				
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:text="@string/commit_visit" />
+		<EditText android:id="@+id/visits_per_week"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+		
+		<EditText android:id="@+id/hours_per_visit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+		</TableRow>	
+		<View
+        	android:layout_height="2dip"
+        	android:background="#FF909090" />
+		<TableRow>
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:text="@string/commit_fund_raise" />
+		<EditText android:id="@+id/raises_per_week"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+
+		<EditText android:id="@+id/hours_per_raise"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+		</TableRow>	
+		<View
+        	android:layout_height="2dip"
+        	android:background="#FF909090" />
+		<TableRow>
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:text="@string/commit_event" />
+		<EditText android:id="@+id/events_per_week"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+
+		<EditText android:id="@+id/hours_per_event"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+		</TableRow>	
+		<View
+        	android:layout_height="2dip"
+        	android:background="#FF909090" />
+		<TableRow>
+		<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:text="@string/office_support" />
+		<EditText android:id="@+id/supports_per_week"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+
+		<EditText android:id="@+id/hours_per_support"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="24sp"
+				android:hint="@string/once" />
+		</TableRow>	
+		<View
+        	android:layout_height="2dip"
+        	android:background="#FF909090" />
+		
+	</TableLayout>	
+	
+		<LinearLayout 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal" >		
+			<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right"
+				android:textSize="26sp"
+				android:text="@string/expertee" />
+			<EditText android:id="@+id/specialty_list"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="24sp"
+				android:hint="@string/specialty_list" />	
+	   </LinearLayout> 	
+
+		<!--     	
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:background="#ffcc99"
+			android:textColor="#0066ff"
+			android:hint="@string/set_goal" 
+			android:onClick="doSend" />	
+		-->	
+			
+		<ImageView android:id="@+id/nija_gif"
+			    android:contentDescription="@string/candidate_photo"
+				android:layout_width="match_parent"
+				
+				android:layout_height="fill_parent"
+		    	android:layout_gravity="center_horizontal"
+				android:background="#000000"
+				android:gravity="center" android:padding="0dp" />
+		
+</LinearLayout>
+</ScrollView>

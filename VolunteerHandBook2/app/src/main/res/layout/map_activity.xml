@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <fragment
+      android:id="@+id/map"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      class="com.google.android.gms.maps.MapFragment"/>
+    
+	      <!--
+	      xmlns:map="http://schemas.android.com/apk/res-auto"
+	  		 class="com.google.android.gms.maps.MapFragment"/>  -->
+	<!-- 		 	<fragment 
+	  android:id="@+id/map"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  class="com.google.android.gms.maps.SupportMapFragment"
+	  map:cameraBearing="112.5"
+	  map:cameraTargetLat="25.046375"
+	  map:cameraTargetLng="121.520884"
+	  map:cameraTilt="30"
+	  map:cameraZoom="15"
+	  map:mapType="normal"
+	  map:uiCompass="true"
+	  map:uiRotateGestures="true"
+	  map:uiScrollGestures="true"
+	  map:uiTiltGestures="false"
+	  map:uiZoomControls="true"
+	  map:uiZoomGestures="true"/>
+	  --> 
+</LinearLayout>

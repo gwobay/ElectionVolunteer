@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  every thing here should not be changed once it is set
+    		they are supposed to be used for all java files and database and files
+    		any change after it set will cause the mislocation of databse or file -->
+    		<string name="im_boss">NoYES</string>
+    		<string name="data_server_host">220.134.85.189</string>
+    		<string name="data_server_port">9696</string>
+    		
+    		<string name="login_page">login_page</string>
+    		<string name="password_key">password</string>
+    		<string name="citizen_id_key">citizen_id</string>
+    		<string name="fix_line_key">fixline</string>
+    		<string name="test_agenda_key">NoYes</string>
+</resources>
